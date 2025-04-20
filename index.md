@@ -2,15 +2,13 @@
 # Shashank Portfolio
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 [resume link](https://drive.google.com/file/d/1nlppqxLMOSRFlP9P5mocwxOAfqXUbHTi/view?usp=sharing).
 
 ## Project 1
 
 _AwwazSpace_ - a web application with a responsive frontend using HTML, Bootstrap, and CSS for key views such as home, post creation, and login. The backend was built using Django's model-view-template (MVT) architecture, enabling efficient CRUD operations. I implemented user registration, login, and logout features with Django’s built-in authentication system. Additionally, I integrated secure payment processing via the Stripe API and containerized the entire application using Docker for easy deployment and scalability.
 [github link](https://github.com/ShashankPatil35/AwaazSpace).
-![AwwazSpace Screenshot](assets/img/prj-1 pic.jpeg)
+![AwwazSpace Screenshot](assets/img/prj-1Pic.jpeg)
 
 
 ## Project 2
