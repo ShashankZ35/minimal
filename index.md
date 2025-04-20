@@ -1,41 +1,26 @@
 ---
-layout: default
+# Shashank Portfolio
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[resume link](https://drive.google.com/file/d/1nlppqxLMOSRFlP9P5mocwxOAfqXUbHTi/view?usp=sharing).
 
-There should be whitespace between paragraphs.
+## Project 1
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+AwwazSpace - a web application with a responsive frontend using HTML, Bootstrap, and CSS for key views such as home, post creation, and login. The backend was built using Django's model-view-template (MVT) architecture, enabling efficient CRUD operations. I implemented user registration, login, and logout features with Django’s built-in authentication system. Additionally, I integrated secure payment processing via the Stripe API and containerized the entire application using Docker for easy deployment and scalability.
+[github link](https://github.com/ShashankPatil35/AwaazSpace).
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Project 2
+I built Hired, a job portal platform, using a ReactJS frontend styled with Shadcn UI and Tailwind CSS for a sleek, responsive design. The backend is powered by Supabase, handling data management and server-side functionality. For secure user authentication and management, I integrated Clerk, ensuring a smooth and seamless experience. Input validation was streamlined with Zod, significantly reducing errors. Finally, I deployed the platform on Vercel for fast and reliable performance. The entire project is hosted on GitHub for easy access and collaboration.
+[github link](https://github.com/ShashankPatil35/hired-job-portal).
 
-## Header 2
+## Project 3
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+I simulated the movement of delivery personnel by using Apache Kafka producers to generate GPS data and Kafka consumers to process real-time location updates. The integration of the Confluent Kafka library with a Django backend allowed for efficient data flow, enabling real-time performance. GPS data was generated in JSON format through Kafka topics, facilitating live tracking on maps via the Maps API. To ensure seamless coordination and reliable handling of location updates, I leveraged Zookeeper for Kafka management.
+[github link](https://github.com/ShashankPatil35/Delivery-tracking-system-).
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Header 4
 
@@ -75,22 +60,6 @@ end
 1.  Item two
 1.  Item three
 1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
